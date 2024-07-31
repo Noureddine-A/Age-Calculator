@@ -1,0 +1,44 @@
+.output_container {
+  display: block;
+  width: 100%;
+  height: 20%;
+}
+
+.output_years {
+  display: flex;
+  align-items: center;
+}
+
+.output_years_number-1 {
+  width: 7%;
+  height: 10px;
+  background-color: var(--purple);
+  margin-right: 1rem;
+}
+
+.output_years_number-2 {
+  width: 7%;
+  height: 10px;
+  background-color: var(--purple);
+}
+
+h1 {
+  font-family: var(--bold);
+  font-size: 58px;
+  margin-left: 1rem;
+}
+
+p {
+  font-family: var(--bold);
+  font-size: 58px;
+  margin-left: 1rem;
+  color: var(--purple);
+}
+
+@media only screen and (max-width: 768px) {
+
+  .output_container h1{
+    font-size: 40px;
+  }
+
+}
